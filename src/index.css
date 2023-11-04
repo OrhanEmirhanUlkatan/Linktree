@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: white;
+}
+
+.dark body {
+	background-color: black;
+}
+
+html {
+	cursor: url(assets/arrow.png), default;
+}
